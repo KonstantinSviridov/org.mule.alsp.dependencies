@@ -1,0 +1,985 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='Update Site' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1533590617471'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <units size='22'>
+    <unit id='org.eclipse.mylyn.commons.ui' version='3.24.0.v20170629-1728'>
+      <update id='org.eclipse.mylyn.commons.ui' range='[0.0.0,3.24.0.v20170629-1728)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.Bundle-Name' value='Mylyn Commons UI'/>
+        <property name='df_LT.Bundle-Vendor' value='Eclipse Mylyn'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='10'>
+        <provided namespace='org.eclipse.equinox.p2.ui' name='org.eclipse.mylyn.commons.ui' version='3.24.0.v20170629-1728'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.mylyn.commons.ui' version='3.24.0.v20170629-1728'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.ui.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.ui.compatibility' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.ui.dialogs' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.ui.wizard' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.internal.commons.ui' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.core' range='3.8.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.screenshots' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='org.apache.commons.lang' range='[2.6.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='com.google.guava' range='[21.0.0,22.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.ui' version='3.24.0.v20170629-1728'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.mylyn.commons.ui;singleton:=true&#xA;Bundle-Version: 3.24.0.v20170629-1728
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.mylyn.commons.core' version='3.24.0.v20170629-1728'>
+      <update id='org.eclipse.mylyn.commons.core' range='[0.0.0,3.24.0.v20170629-1728)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.Bundle-Name' value='Mylyn Commons'/>
+        <property name='df_LT.Bundle-Vendor' value='Eclipse Mylyn'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='11'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.core' version='3.24.0.v20170629-1728'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.mylyn.commons.core' version='3.24.0.v20170629-1728'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.core.io' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.core.net' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.core.operations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.core.storage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.internal.commons.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.internal.commons.core.operations' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.net' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.core' version='3.24.0.v20170629-1728'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.mylyn.commons.core;singleton:=true&#xA;Bundle-Version: 3.24.0.v20170629-1728
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='Dependencies' version='1.0.0.2--dWTh--7735I3I3G3979'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Dependencies'/>
+        <property name='org.eclipse.equinox.p2.description' value='Dependencies'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='Dependencies' version='1.0.0.2--dWTh--7735I3I3G3979'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='ALSPDependencies.feature.group' range='[1.0.0.201808070323,1.0.0.201808070323]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.jcodings' version='1.0.18.v20170306-1742' singleton='false'>
+      <update id='org.jcodings' range='[0.0.0,1.0.18.v20170306-1742)' severity='0'/>
+      <properties size='7'>
+        <property name='df_LT.bundleVendor' value='Eclipse Orbit'/>
+        <property name='df_LT.bundleName' value='JCodings'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='maven-groupId' value='org.eclipse.orbit.bundles'/>
+        <property name='maven-artifactId' value='org.jcodings'/>
+        <property name='maven-version' value='1.0.18-SNAPSHOT'/>
+      </properties>
+      <provides size='14'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.jcodings' version='1.0.18.v20170306-1742'/>
+        <provided namespace='osgi.bundle' name='org.jcodings' version='1.0.18.v20170306-1742'/>
+        <provided namespace='java.package' name='org.jcodings' version='1.0.18'/>
+        <provided namespace='java.package' name='org.jcodings.ascii' version='1.0.18'/>
+        <provided namespace='java.package' name='org.jcodings.constants' version='1.0.18'/>
+        <provided namespace='java.package' name='org.jcodings.exception' version='1.0.18'/>
+        <provided namespace='java.package' name='org.jcodings.specific' version='1.0.18'/>
+        <provided namespace='java.package' name='org.jcodings.transcode' version='1.0.18'/>
+        <provided namespace='java.package' name='org.jcodings.transcode.specific' version='1.0.18'/>
+        <provided namespace='java.package' name='org.jcodings.unicode' version='1.0.18'/>
+        <provided namespace='java.package' name='org.jcodings.util' version='1.0.18'/>
+        <provided namespace='java.package' name='tables' version='1.0.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='java.package' name='org.jcodings' range='[1.0.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.jcodings.ascii' range='[1.0.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.jcodings.constants' range='[1.0.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.jcodings.exception' range='[1.0.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.jcodings.specific' range='[1.0.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.jcodings.transcode' range='[1.0.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.jcodings.transcode.specific' range='[1.0.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.jcodings.unicode' range='[1.0.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.jcodings.util' range='[1.0.0,2.0.0)' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.jcodings' version='1.0.18.v20170306-1742'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.jcodings&#xA;Bundle-Version: 1.0.18.v20170306-1742
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.mylyn.commons.notifications.ui' version='1.16.0.v20170629-1728'>
+      <update id='org.eclipse.mylyn.commons.notifications.ui' range='[0.0.0,1.16.0.v20170629-1728)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.Bundle-Name' value='Mylyn Commons'/>
+        <property name='df_LT.Bundle-Vendor' value='Eclipse Mylyn'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.notifications.ui' version='1.16.0.v20170629-1728'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.mylyn.commons.notifications.ui' version='1.16.0.v20170629-1728'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.notifications.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.internal.commons.notifications.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.internal.commons.notifications.ui.popup' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='10'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.core' range='3.8.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.notifications.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.ui' range='3.8.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.workbench' range='3.8.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.notifications.ui' version='1.16.0.v20170629-1728'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.mylyn.commons.notifications.ui;singleton:=true&#xA;Bundle-Version: 1.16.0.v20170629-1728
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.joni' version='2.1.11.patch' singleton='false'>
+      <update id='org.joni' range='[0.0.0,2.1.11.patch)' severity='0'/>
+      <properties size='4'>
+        <property name='df_LT.bundleVendor' value='Eclipse Orbit'/>
+        <property name='df_LT.bundleName' value='Joni'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.joni' version='2.1.11.patch'/>
+        <provided namespace='osgi.bundle' name='org.joni' version='2.1.11.patch'/>
+        <provided namespace='java.package' name='org.joni' version='2.1.11'/>
+        <provided namespace='java.package' name='org.joni.ast' version='2.1.11'/>
+        <provided namespace='java.package' name='org.joni.bench' version='2.1.11'/>
+        <provided namespace='java.package' name='org.joni.constants' version='2.1.11'/>
+        <provided namespace='java.package' name='org.joni.exception' version='2.1.11'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='java.package' name='org.jcodings' range='1.0.13'/>
+        <required namespace='java.package' name='org.jcodings.constants' range='1.0.13'/>
+        <required namespace='java.package' name='org.jcodings.exception' range='1.0.13'/>
+        <required namespace='java.package' name='org.jcodings.specific' range='1.0.13'/>
+        <required namespace='java.package' name='org.jcodings.unicode' range='1.0.13'/>
+        <required namespace='java.package' name='org.jcodings.util' range='1.0.13'/>
+        <required namespace='java.package' name='org.joni' range='[2.1.0,3.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.joni.ast' range='[2.1.0,3.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.joni.constants' range='[2.1.0,3.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.joni.exception' range='[2.1.0,3.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.objectweb.asm' range='5.0.1'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.joni' version='2.1.11.patch'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.joni&#xA;Bundle-Version: 2.1.11.patch
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.lsp4j' version='0.3.1.patch' singleton='false'>
+      <update id='org.eclipse.lsp4j' range='[0.0.0,0.3.1.patch)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.eclipse.lsp4j'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse LSP4J'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.lsp4j' version='0.3.1.patch'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.lsp4j' version='0.3.1.patch'/>
+        <provided namespace='java.package' name='org.eclipse.lsp4j' version='0.3.1.v20180425-1200'/>
+        <provided namespace='java.package' name='org.eclipse.lsp4j.launch' version='0.3.1.v20180425-1200'/>
+        <provided namespace='java.package' name='org.eclipse.lsp4j.services' version='0.3.1.v20180425-1200'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='java.package' name='org.eclipse.lsp4j' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.messages' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.services' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.validation' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.services' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.xtext.xbase.lib' range='[2.8.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.xtext.xbase.lib.util' range='[2.8.0,3.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.lsp4j' version='0.3.1.patch'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.lsp4j&#xA;Bundle-Version: 0.3.1.patch
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='ALSPDependencies.feature.jar' version='1.0.0.201808070323'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='ALSPDependencies'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='ALSPDependencies.feature.jar' version='1.0.0.201808070323'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='ALSPDependencies' version='1.0.0.201808070323'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='ALSPDependencies' version='1.0.0.201808070323'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.mylyn.wikitext.markdown' version='3.0.26.20180716143447' singleton='false'>
+      <update id='org.eclipse.mylyn.wikitext.markdown' range='[0.0.0,3.0.26.20180716143447)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Mylyn WikiText Markdown'/>
+        <property name='org.eclipse.equinox.p2.description' value='Mylyn WikiText provides an extensible framework and tools for parsing, editing and presenting lightweight markup. WikiText has parsers for AsciiDoc, CommonMark, Markdown, MediaWiki, Textile, Confluence, Creole, HTML, TracWiki and TWiki markup, and        can be extended to support other languages. WikiText provides Ant tasks for converting lightweight markup to HTML, Eclipse Help, DocBook, DITA and XSL-FO. WikiText also provides an editor for editing such markup within Eclipse, and integrates with        the Mylyn task editor causing it to be markup-aware. WikiText provides API for integrating wiki markup capabilities into Eclipse, RCP, stand-alone and server-side applications.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse Mylyn'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://eclipse.org/mylyn'/>
+      </properties>
+      <provides size='10'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.wikitext.markdown' version='3.0.26.20180716143447'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.mylyn.wikitext.markdown' version='3.0.26.20180716143447'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal.block' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal.phrase' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal.token' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal.util' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal.validation' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown' version='3.0.26'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='14'>
+        <required namespace='java.package' name='com.google.common.base' range='[21.0.0,22.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal.block' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal.phrase' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal.token' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.markdown.internal.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser' range='[3.0.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.builder' range='[3.0.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup' range='[3.0.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup.phrase' range='[3.0.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup.token' range='[3.0.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.util' range='[3.0.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.validation' range='[3.0.0,4.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.markdown' version='3.0.26.20180716143447'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.mylyn.wikitext.markdown&#xA;Bundle-Version: 3.0.26.20180716143447
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.mylyn.wikitext' version='3.0.26.20180716143447' singleton='false'>
+      <update id='org.eclipse.mylyn.wikitext' range='[0.0.0,3.0.26.20180716143447)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Mylyn WikiText'/>
+        <property name='org.eclipse.equinox.p2.description' value='Mylyn WikiText provides an extensible framework and tools for parsing, editing and presenting lightweight markup. WikiText has parsers for AsciiDoc, CommonMark, Markdown, MediaWiki, Textile, Confluence, Creole, HTML, TracWiki and TWiki markup, and        can be extended to support other languages. WikiText provides Ant tasks for converting lightweight markup to HTML, Eclipse Help, DocBook, DITA and XSL-FO. WikiText also provides an editor for editing such markup within Eclipse, and integrates with        the Mylyn task editor causing it to be markup-aware. WikiText provides API for integrating wiki markup capabilities into Eclipse, RCP, stand-alone and server-side applications.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse Mylyn'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://eclipse.org/mylyn'/>
+      </properties>
+      <provides size='18'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.wikitext' version='3.0.26.20180716143447'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.mylyn.wikitext' version='3.0.26.20180716143447'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.internal.parser.html' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.internal.util' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.builder' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.builder.event' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.css' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup.block' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup.phrase' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup.token' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.outline' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.util' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.splitter' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.util' version='3.0.26'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.wikitext.validation' version='3.0.26'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='27'>
+        <required namespace='java.package' name='com.google.common.base' range='[21.0.0,22.0.0)'/>
+        <required namespace='java.package' name='com.google.common.collect' range='[21.0.0,22.0.0)'/>
+        <required namespace='java.package' name='com.google.common.escape' range='[21.0.0,22.0.0)'/>
+        <required namespace='java.package' name='com.google.common.xml' range='[21.0.0,22.0.0)'/>
+        <required namespace='java.package' name='javax.lang.model' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.namespace' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.stream' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.internal.parser.html' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.internal.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.builder' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.builder.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.css' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup.block' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.markup.token' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.outline' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.parser.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.mylyn.wikitext.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.jsoup' range='[1.7.0,2.0.0)'/>
+        <required namespace='java.package' name='org.jsoup.helper' range='[1.7.0,2.0.0)'/>
+        <required namespace='java.package' name='org.jsoup.nodes' range='[1.7.0,2.0.0)'/>
+        <required namespace='java.package' name='org.jsoup.select' range='[1.7.0,2.0.0)'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax.helpers' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext' version='3.0.26.20180716143447'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.mylyn.wikitext&#xA;Bundle-Version: 3.0.26.20180716143447
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.lucene.queryparser' version='6.1.0.v20161115-1612' singleton='false'>
+      <update id='org.apache.lucene.queryparser' range='[0.0.0,6.1.0.v20161115-1612)' severity='0'/>
+      <properties size='4'>
+        <property name='df_LT.bundleVendor' value='Eclipse Orbit'/>
+        <property name='df_LT.bundleName' value='Lucene QueryParsers'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      </properties>
+      <provides size='30'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.lucene.queryparser' version='6.1.0.v20161115-1612'/>
+        <provided namespace='osgi.bundle' name='org.apache.lucene.queryparser' version='6.1.0.v20161115-1612'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.analyzing' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.classic' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.complexPhrase' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.ext' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.core' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.builders' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.config' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.messages' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.nodes' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.parser' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.processors' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.util' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.messages' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.precedence' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.precedence.processors' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.builders' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.config' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.nodes' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.parser' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.processors' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.simple' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.surround.parser' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.surround.query' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.xml' version='6.1.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.queryparser.xml.builders' version='6.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='37'>
+        <required namespace='java.package' name='org.apache.lucene.document' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.index' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.search' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queries' range='[6.1.0,6.2.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.lucene.queries.mlt' range='[6.1.0,6.2.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.lucene.queries.payloads' range='[6.1.0,6.2.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.lucene.sandbox.queries' range='[6.1.0,6.2.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.lucene.analysis' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.analysis.tokenattributes' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.classic' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.core' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.builders' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.config' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.messages' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.nodes' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.parser' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.processors' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.core.util' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.messages' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.precedence.processors' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.builders' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.config' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.nodes' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.parser' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.flexible.standard.processors' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.surround.query' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.xml' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.queryparser.xml.builders' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.search.spans' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='org.apache.lucene.util' range='[6.1.0,6.2.0)'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.transform' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.transform.dom' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.transform.stream' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.lucene.queryparser' version='6.1.0.v20161115-1612'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.lucene.queryparser&#xA;Bundle-Version: 6.1.0.v20161115-1612
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.jsoup' version='1.7.2.v201411291515' singleton='false'>
+      <update id='org.jsoup' range='[0.0.0,1.7.2.v201411291515)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.bundleName' value='jsoup: Java HTML Parser'/>
+        <property name='df_LT.bundleProvider' value='Eclipse Orbit'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleProvider'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='11'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.jsoup' version='1.7.2.v201411291515'/>
+        <provided namespace='osgi.bundle' name='org.jsoup' version='1.7.2.v201411291515'/>
+        <provided namespace='java.package' name='org.jsoup' version='1.7.2'/>
+        <provided namespace='java.package' name='org.jsoup.examples' version='1.7.2'/>
+        <provided namespace='java.package' name='org.jsoup.helper' version='1.7.2'/>
+        <provided namespace='java.package' name='org.jsoup.nodes' version='1.7.2'/>
+        <provided namespace='java.package' name='org.jsoup.parser' version='1.7.2'/>
+        <provided namespace='java.package' name='org.jsoup.safety' version='1.7.2'/>
+        <provided namespace='java.package' name='org.jsoup.select' version='1.7.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.jsoup' version='1.7.2.v201411291515'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.jsoup&#xA;Bundle-Version: 1.7.2.v201411291515
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.tm4e.registry' version='0.1.0.201708020513'>
+      <update id='org.eclipse.tm4e.registry' range='[0.0.0,0.1.0.201708020513)' severity='0'/>
+      <properties size='8'>
+        <property name='df_LT.pluginName' value='TextMate support in Eclipse IDE - Registry management'/>
+        <property name='df_LT.providerName' value='Eclipse TM4E'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.eclipse'/>
+        <property name='maven-artifactId' value='org.eclipse.tm4e.registry'/>
+        <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.registry' version='0.1.0.201708020513'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.tm4e.registry' version='0.1.0.201708020513'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.registry' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='org.eclipse.tm4e.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.gson' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.equinox.preferences' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.tm4e.registry' version='0.1.0.201708020513'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.tm4e.registry;singleton:=true&#xA;Bundle-Version: 0.1.0.201708020513
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.lsp4j.jsonrpc' version='0.3.1.v20180425-1200' singleton='false'>
+      <update id='org.eclipse.lsp4j.jsonrpc' range='[0.0.0,0.3.1.v20180425-1200)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='org.eclipse.lsp4j.jsonrpc'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse LSP4J'/>
+        <property name='maven-groupId' value='org.eclipse.lsp4j'/>
+        <property name='maven-artifactId' value='org.eclipse.lsp4j.jsonrpc'/>
+        <property name='maven-version' value='0.3.1'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.lsp4j.jsonrpc' version='0.3.1.v20180425-1200'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.lsp4j.jsonrpc' version='0.3.1.v20180425-1200'/>
+        <provided namespace='java.package' name='org.eclipse.lsp4j.jsonrpc' version='0.3.1.v20180425-1200'/>
+        <provided namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.json' version='0.3.1.v20180425-1200'/>
+        <provided namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.json.adapters' version='0.3.1.v20180425-1200'/>
+        <provided namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.messages' version='0.3.1.v20180425-1200'/>
+        <provided namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.services' version='0.3.1.v20180425-1200'/>
+        <provided namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.validation' version='0.3.1.v20180425-1200'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='java.package' name='com.google.gson' range='[2.7.0,3.0.0)'/>
+        <required namespace='java.package' name='com.google.gson.reflect' range='[2.7.0,3.0.0)'/>
+        <required namespace='java.package' name='com.google.gson.stream' range='[2.7.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.json' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.json.adapters' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.messages' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.services' range='[0.3.0,1.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.lsp4j.jsonrpc.validation' range='[0.3.0,1.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.lsp4j.jsonrpc' version='0.3.1.v20180425-1200'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.lsp4j.jsonrpc&#xA;Bundle-Version: 0.3.1.v20180425-1200
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.mylyn.commons.notifications.core' version='1.16.0.v20170629-1728'>
+      <update id='org.eclipse.mylyn.commons.notifications.core' range='[0.0.0,1.16.0.v20170629-1728)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.Bundle-Name' value='Mylyn Commons'/>
+        <property name='df_LT.Bundle-Vendor' value='Eclipse Mylyn'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.notifications.core' version='1.16.0.v20170629-1728'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.mylyn.commons.notifications.core' version='1.16.0.v20170629-1728'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.notifications.core' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.core' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.notifications.core' version='1.16.0.v20170629-1728'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.mylyn.commons.notifications.core;singleton:=true&#xA;Bundle-Version: 1.16.0.v20170629-1728
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.tm4e.languageconfiguration' version='0.1.0.201802091211'>
+      <update id='org.eclipse.tm4e.languageconfiguration' range='[0.0.0,0.1.0.201802091211)' severity='0'/>
+      <properties size='8'>
+        <property name='df_LT.pluginName' value='TextMate support in Eclipse IDE - Language Configurations'/>
+        <property name='df_LT.providerName' value='Eclipse TM4E'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.eclipse'/>
+        <property name='maven-artifactId' value='org.eclipse.tm4e.languageconfiguration'/>
+        <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.languageconfiguration' version='0.1.0.201802091211'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.tm4e.languageconfiguration' version='0.1.0.201802091211'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.languageconfiguration' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.genericeditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.gson' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.tm4e.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.tm4e.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filebuffers' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.tm4e.registry' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.tm4e.languageconfiguration' version='0.1.0.201802091211'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.tm4e.languageconfiguration;singleton:=true&#xA;Bundle-Version: 0.1.0.201802091211
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.mylyn.commons.screenshots' version='3.24.0.v20170629-1728'>
+      <update id='org.eclipse.mylyn.commons.screenshots' range='[0.0.0,3.24.0.v20170629-1728)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.Bundle-Name' value='Mylyn Commons'/>
+        <property name='df_LT.Bundle-Vendor' value='Eclipse Mylyn'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.screenshots' version='3.24.0.v20170629-1728'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.mylyn.commons.screenshots' version='3.24.0.v20170629-1728'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.ui.screenshots' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.internal.commons.ui.screenshots' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface' range='3.3.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.screenshots' version='3.24.0.v20170629-1728'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.mylyn.commons.screenshots;singleton:=true&#xA;Bundle-Version: 3.24.0.v20170629-1728
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.tm4e.markdown' version='0.1.0.201802091130'>
+      <update id='org.eclipse.tm4e.markdown' range='[0.0.0,0.1.0.201802091130)' severity='0'/>
+      <properties size='8'>
+        <property name='df_LT.pluginName' value='TextMate support in Eclipse IDE - Markdown'/>
+        <property name='df_LT.providerName' value='Eclipse TM4E'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.eclipse'/>
+        <property name='maven-artifactId' value='org.eclipse.tm4e.markdown'/>
+        <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.markdown' version='0.1.0.201802091130'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.tm4e.markdown' version='0.1.0.201802091130'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.markdown' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.markdown.marked' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.tm4e.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.tm4e.registry' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.tm4e.ui' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.tm4e.markdown' version='0.1.0.201802091130'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.tm4e.markdown;singleton:=true&#xA;Bundle-Version: 0.1.0.201802091130
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='ALSPDependencies.feature.group' version='1.0.0.201808070323' singleton='false'>
+      <update id='ALSPDependencies.feature.group' range='[0.0.0,1.0.0.201808070323)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='ALSPDependencies'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='ALSPDependencies.feature.group' version='1.0.0.201808070323'/>
+      </provides>
+      <requires size='20'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.lucene.queryparser' range='[6.1.0.v20161115-1612,6.1.0.v20161115-1612]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.lsp4j.jsonrpc' range='[0.3.1.v20180425-1200,0.3.1.v20180425-1200]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.core' range='[0.1.0.201802091213,0.1.0.201802091213]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.languageconfiguration' range='[0.1.0.201802091211,0.1.0.201802091211]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.markdown' range='[0.1.0.201802091130,0.1.0.201802091130]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.registry' range='[0.1.0.201708020513,0.1.0.201708020513]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.ui' range='[0.1.0.201802091213,0.1.0.201802091213]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.jcodings' range='[1.0.18.v20170306-1742,1.0.18.v20170306-1742]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.joni' range='[2.1.11.patch,2.1.11.patch]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.jsoup' range='[1.7.2.v201411291515,1.7.2.v201411291515]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.wikitext.markdown' range='[3.0.26.20180716143447,3.0.26.20180716143447]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.wikitext' range='[3.0.26.20180716143447,3.0.26.20180716143447]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.notifications.core' range='[1.16.0.v20170629-1728,1.16.0.v20170629-1728]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.notifications.ui' range='[1.16.0.v20170629-1728,1.16.0.v20170629-1728]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.core' range='[3.24.0.v20170629-1728,3.24.0.v20170629-1728]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.ui' range='[3.24.0.v20170629-1728,3.24.0.v20170629-1728]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.workbench' range='[3.24.0.v20180613-1658,3.24.0.v20180613-1658]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.screenshots' range='[3.24.0.v20170629-1728,3.24.0.v20170629-1728]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.lsp4j' range='[0.3.1.patch,0.3.1.patch]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='ALSPDependencies.feature.jar' range='[1.0.0.201808070323,1.0.0.201808070323]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.tm4e.core' version='0.1.0.201802091213' singleton='false'>
+      <update id='org.eclipse.tm4e.core' range='[0.0.0,0.1.0.201802091213)' severity='0'/>
+      <properties size='8'>
+        <property name='df_LT.pluginName' value='TextMate support in Java'/>
+        <property name='df_LT.providerName' value='Eclipse TM4E'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.eclipse'/>
+        <property name='maven-artifactId' value='org.eclipse.tm4e.core'/>
+        <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+      </properties>
+      <provides size='17'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.core' version='0.1.0.201802091213'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.tm4e.core' version='0.1.0.201802091213'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.grammar' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.internal.grammar' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.internal.grammars' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.internal.matcher' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.internal.theme.reader' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.internal.types' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.internal.utils' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.logger' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.model' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.registry' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.theme' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.core.theme.css' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='osgi.bundle' name='org.apache.batik.css' range='1.7.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.apache.batik.util' range='1.7.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='com.google.gson' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.jcodings' range='1.0.18'/>
+        <required namespace='osgi.bundle' name='org.joni' range='2.1.11'/>
+        <required namespace='java.package' name='org.w3c.css.sac' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.w3c.css.sac.helpers' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.tm4e.core' version='0.1.0.201802091213'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.tm4e.core&#xA;Bundle-Version: 0.1.0.201802091213
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.tm4e.ui' version='0.1.0.201802091213'>
+      <update id='org.eclipse.tm4e.ui' range='[0.0.0,0.1.0.201802091213)' severity='0'/>
+      <properties size='8'>
+        <property name='df_LT.pluginName' value='TextMate support in Eclipse IDE - UI'/>
+        <property name='df_LT.providerName' value='Eclipse TM4E'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.eclipse'/>
+        <property name='maven-artifactId' value='org.eclipse.tm4e.ui'/>
+        <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+      </properties>
+      <provides size='12'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm4e.ui' version='0.1.0.201802091213'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.tm4e.ui' version='0.1.0.201802091213'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.ui.internal.model' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.ui.internal.themes' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.ui.model' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.ui.text' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.ui.themes' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.ui.themes.css' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.tm4e.ui.utils' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='osgi.bundle' name='org.eclipse.tm4e.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.tm4e.registry' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='com.google.gson' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.e4.ui.css.swt.theme' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.core.filebuffers' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.tm4e.ui' version='0.1.0.201802091213'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.tm4e.ui;singleton:=true&#xA;Bundle-Version: 0.1.0.201802091213
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.mylyn.commons.workbench' version='3.24.0.v20180613-1658'>
+      <update id='org.eclipse.mylyn.commons.workbench' range='[0.0.0,3.24.0.v20180613-1658)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.Bundle-Name' value='Mylyn Commons UI'/>
+        <property name='df_LT.Bundle-Vendor' value='Eclipse Mylyn'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='11'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.commons.workbench' version='3.24.0.v20180613-1658'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.mylyn.commons.workbench' version='3.24.0.v20180613-1658'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.workbench' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.workbench.browser' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.workbench.editors' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.workbench.forms' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.workbench.search' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.commons.workbench.texteditor' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.internal.commons.workbench' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.browser' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.core' range='3.8.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.ui' range='3.8.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.workbench' version='3.24.0.v20180613-1658'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench;singleton:=true&#xA;Bundle-Version: 3.24.0.v20180613-1658
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>
