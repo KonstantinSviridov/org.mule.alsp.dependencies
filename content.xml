@@ -23,7 +23,7 @@
         <provided namespace='java.package' name='org.eclipse.mylyn.commons.ui.compatibility' version='0.0.0'/>
         <provided namespace='java.package' name='org.eclipse.mylyn.commons.ui.dialogs' version='0.0.0'/>
         <provided namespace='java.package' name='org.eclipse.mylyn.commons.ui.wizard' version='0.0.0'/>
-        <provided namespace='java.package' name='org.eclipse.mylyn.internal.commons.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.mylyn.internal.commons.ui' version='1.16.0.v20170629-1728'/>
         <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
         <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
       </provides>
