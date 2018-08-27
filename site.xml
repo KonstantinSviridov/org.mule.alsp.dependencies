@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/ALSPDependencies_1.0.0.201808070323.jar" id="ALSPDependencies" version="1.0.0.201808070323">
+      <category name="Dependencies"/>
+   </feature>
+   <category-def name="Dependencies" label="Dependencies">
+      <description>
+         Dependencies
+      </description>
+   </category-def>
+</site>
