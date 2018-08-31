@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.apache.lucene.queryparser.feature_6.1.0.v20161115-1612.jar" id="org.apache.lucene.queryparser.feature" version="6.1.0.v20161115-1612"/>
+   <feature url="features/org.eclipse.lsp4j.feature_0.3.1.patch.jar" id="org.eclipse.lsp4j.feature" version="0.3.1.patch"/>
+   <feature url="features/org.eclipse.lsp4j.jsonrpc.feature_0.3.1.v20180425-1200.jar" id="org.eclipse.lsp4j.jsonrpc.feature" version="0.3.1.v20180425-1200"/>
+   <feature url="features/org.eclipse.tm4e.core.feature_0.1.0.201802091213.jar" id="org.eclipse.tm4e.core.feature" version="0.1.0.201802091213"/>
+   <feature url="features/org.eclipse.tm4e.languageconfiguration.feature_0.1.0.201802091211.jar" id="org.eclipse.tm4e.languageconfiguration.feature" version="0.1.0.201802091211"/>
+   <feature url="features/org.eclipse.tm4e.markdown.feature_0.1.0.201802091130.jar" id="org.eclipse.tm4e.markdown.feature" version="0.1.0.201802091130"/>
+   <feature url="features/org.eclipse.tm4e.registry.feture_0.1.0.201708020513.jar" id="org.eclipse.tm4e.registry.feture" version="0.1.0.201708020513"/>
+   <feature url="features/org.eclipse.tm4e.ui.feature_0.1.0.201802091213.jar" id="org.eclipse.tm4e.ui.feature" version="0.1.0.201802091213"/>
+   <feature url="features/org.jcodings.feature_1.0.18.v20170306-1742.jar" id="org.jcodings.feature" version="1.0.18.v20170306-1742"/>
+   <feature url="features/org.joni.feature_2.1.11.patch.jar" id="org.joni.feature" version="2.1.11.patch"/>
+   <feature url="features/org.jsoup.feature_1.7.2.v201411291515.jar" id="org.jsoup.feature" version="1.7.2.v201411291515"/>
+   <feature url="features/org.eclipse.mylyn.commons.core.feature_3.24.0.v20170629-1728.jar" id="org.eclipse.mylyn.commons.core.feature" version="3.24.0.v20170629-1728"/>
+   <feature url="features/org.eclipse.mylyn.commons.notifications.core.feature_1.16.0.v20170629-1728.jar" id="org.eclipse.mylyn.commons.notifications.core.feature" version="1.16.0.v20170629-1728"/>
+   <feature url="features/org.eclipse.mylyn.commons.notifications.ui.feature_1.16.0.v20170629-1728.jar" id="org.eclipse.mylyn.commons.notifications.ui.feature" version="1.16.0.v20170629-1728"/>
+   <feature url="features/org.eclipse.mylyn.commons.screenshots.feature_3.24.0.v20170629-1728.jar" id="org.eclipse.mylyn.commons.screenshots.feature" version="3.24.0.v20170629-1728"/>
+   <feature url="features/org.eclipse.mylyn.commons.ui.feature_3.24.0.v20170629-1728.jar" id="org.eclipse.mylyn.commons.ui.feature" version="3.24.0.v20170629-1728"/>
+   <feature url="features/org.eclipse.mylyn.commons.workbench.feature_3.24.0.v20180613-1658.jar" id="org.eclipse.mylyn.commons.workbench.feature" version="3.24.0.v20180613-1658"/>
+   <feature url="features/org.eclipse.mylyn.wikitext.feature_3.0.26.20180716143447.jar" id="org.eclipse.mylyn.wikitext.feature" version="3.0.26.20180716143447"/>
+   <feature url="features/org.eclipse.mylyn.wikitext.markdown.feature_3.0.26.20180716143447.jar" id="org.eclipse.mylyn.wikitext.markdown.feature" version="3.0.26.20180716143447"/>
+</site>
